@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.left {
+    background: url(assets/pexels-pixabay-208984.jpg) no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    position: relative;
+}
+.left .content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.login-box {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+.login-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.login-box label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(174, 34, 57);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-box .social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.login-box .social-login button 
+{
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login-box .social-login .google 
+{
+    background-color: rgb(135, 250, 160);
+    
+}
+.login-box .social-login .facebook 
+{
+    background-color: rgb(54, 60, 225);
+    color: white;
+}
+.login-box .social-login .apple {
+    background-color: ;
+    color: white;
+}
+.login-box .register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.login-box .register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
